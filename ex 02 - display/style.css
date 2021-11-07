@@ -1,0 +1,32 @@
+body {
+    font-family: Arial;
+}
+
+h1 {
+    text-align: center;
+}
+
+h2, p {
+    color: white;
+}
+
+button {
+    /* font-family: Arial; */
+    font-weight: bold;
+    background: #febe01;
+    border: 1px solid #febe01;
+    border-radius: 4px;
+    height: 30px;
+}
+
+.box-compra {
+    background: #111;
+    border: 1px solid #111;
+    border-radius: 4px;
+    margin: 40px;
+    padding: 20px;
+}
+
+.yellow {
+    color: #febe01;
+}
