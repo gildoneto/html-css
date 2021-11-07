@@ -1,0 +1,28 @@
+/* DIV e H1
+por padrão o width(largura) é auto
+(pega o tamanho total do elemento pai)
+--
+por padrão o height(altura) é auto
+--
+No CSS as margens colidem. A maior ganha.
+*/
+
+div {
+    background: #aaa;
+    width: 140px;
+    height: 80px;
+    padding: 20px;
+    border: 10px solid #111;
+    margin: 30px;
+}
+
+body {
+    margin: 0px;
+}
+
+h1 {
+    background: #84e;
+    padding: 20px;
+    border: 4px solid #111;
+    margin: 40px;
+}
