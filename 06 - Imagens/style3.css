@@ -1,0 +1,9 @@
+img {
+    max-width: 100%; /* garante que a imagem não fique maior que o container*/
+    display: block; /* O padrao é inline-block, colocando block perde a margem */
+    width: 600px;
+}
+
+body {
+  background: lightblue;
+}
